@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/majbrit/FrontendMentor/tree/main/SocialLinksProfile]([https://your-solution-url.com](https://github.com/majbrit/FrontendMentor/tree/main/SocialLinksProfile)
+- Live Site URL: [https://majbrit.github.io/FrontendMentor/SocialLinksProfile/index.html]([https://your-live-site-url.com](https://majbrit.github.io/FrontendMentor/SocialLinksProfile/index.html))
 
 ## My process
 
