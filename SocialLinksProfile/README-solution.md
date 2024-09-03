@@ -14,9 +14,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -32,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/majbrit/FrontendMentor/tree/main/SocialLinksProfile](https://github.com/majbrit/FrontendMentor/tree/main/SocialLinksProfile)
+- Live Site URL: [https://majbrit.github.io/FrontendMentor/SocialLinksProfile/index.html](https://majbrit.github.io/FrontendMentor/SocialLinksProfile/index.html)
 
 ## My process
 
@@ -58,7 +55,5 @@ Users should be able to:
 
 
 ## Author
+- Frontend Mentor - [@majbrit](https://www.frontendmentor.io/profile/majbrit)
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
