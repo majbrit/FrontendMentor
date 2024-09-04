@@ -1,12 +1,196 @@
-.attribution {
-    position: fixed;
-    bottom: 5px;
-    left: 5px;
+:root {
+  --pink: #f9c2c0ff;
+  --turquoise: #5dbbcc;
+  --darkblue: #0f3898;
+
+  --turq: #4f929e40;
+  --turqdark: #588c95;
+
+
+  --newbie: #6abecdff;
+  --junior: #aad742ff;
+  --intermediate: #f1b604ff;
+  --advanced: #f48925ff;
+  --guru: #ed2c49ff;
+}
+
+
+
+body, html {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, white 0%, var(--turq) 100%);
+ }
+
+h1 {
+  margin-top: 0;
+  color: var(--darkblue);
+}
+
+h2 {
+  margin-top: 0;
+  color: var(--darkblue);
+  margin: 12px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
   
-    font-size: 11px; 
-    text-align: center;
-  }
+}
+
+header {
+  margin: 30px;
+  text-align: center;
+
+  border-bottom: 2px var(--pink) solid;
+}
+
+main {
+  margin: 0;
+  padding: 0 20px 200px 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--darkblue)
+}
+
+
+.page {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  border-top: 2px var(--pink) solid;
+  position: absolute;
+  bottom: 0px;
+  height: 70px;
+  width: calc(100% - 60px);
+  color: var(--darkblue);
+  text-align: center;
+  padding: 30px 0px;
+  margin: 10px;
+}
+
+
+.card-wrap {
+  width: calc((100% / 3) - 20px);
+  margin: 10px;
+}
+
+
+.card {
+
+  /*max-width: calc((100.00% - 60.00px) / 3.0);*/
+
   
-  .attribution a { 
-    color: hsl(228, 45%, 44%); 
+
+  margin: 5px;
+
+  background-color: white;
+  /*border: 0.5px var(--turq) solid;*/
+  border-radius: 10px;
+  overflow: hidden;
+
+  
+  box-shadow: 0px 0px 1px var(--turqdark);
+  
+}
+
+.card:hover {
+  cursor: pointer;
+  margin: 0px;
+  padding-bottom: 3px;
+  box-shadow: 0px 0px 4px var(--turqdark);
+  
+}
+
+.card:hover img {
+
+}
+
+@media (max-width: 1024px) {
+  .card-wrap {
+    width: calc((100% / 2) - 20px);
   }
+}
+
+@media (max-width: 500px) {
+  .card-wrap {
+    width: calc(100% - 20px);
+  }
+}
+
+
+
+
+
+
+.content {
+  padding: 0px 20px 32px;
+}
+
+.tools {
+  margin: 0px 12px;
+  font-weight: 700;
+  color: var(--turqdark);
+}
+
+.level {
+  text-align: center;
+}
+
+.scale {
+
+  width: calc(100% - 24px);
+  height: 10px;
+  background: linear-gradient(90deg, var(--newbie) 0%, var(--junior) 25%, var(--intermediate) 50%, var(--advanced) 75%, var(--guru) 100%);
+
+  margin: 6px 0px;
+
+  border: rgb(255, 255, 255) solid;
+  border-width: 8px 12px;
+}
+
+
+
+.index {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--newbie);
+  margin: -7px -12px;
+
+  text-align: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.index p {
+  margin: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.level-name {
+  	margin: 0px 12px;
+    font-weight: 500;
+    color: white;
+    background-color: var(--newbie);
+    border-radius: 5px;
+    padding: 6px;
+}
+
+
+
+
