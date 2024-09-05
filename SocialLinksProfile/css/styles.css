@@ -54,6 +54,7 @@ button {
 button:hover, button:focus {
   color: var(--grey-800);
   background-color: var(--green);
+  cursor: pointer;
 }
 
 .page {
