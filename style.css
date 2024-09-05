@@ -6,6 +6,9 @@
   --turq: #4f929e40;
   --turqdark: #588c95;
 
+  --grey: #737373;
+  --lightgrey: #c9c9c9;
+
 
   --newbie: #6abecdff;
   --junior: #aad742ff;
@@ -35,9 +38,21 @@ h2 {
   text-align: center;
 }
 
+.img-container {
+  height: 300px;
+  overflow: hidden;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
 img {
   width: 100%;
-  
+  height: 100%;
+  object-fit: cover;
 }
 
 header {
@@ -81,51 +96,36 @@ footer {
 }
 
 
-.card-wrap {
-  width: calc((100% / 3) - 20px);
-  margin: 10px;
-}
-
-
 .card {
-
-  /*max-width: calc((100.00% - 60.00px) / 3.0);*/
-
+  margin: 10px;
   
-
-  margin: 5px;
+  width: calc((100% / 3) - 22px);
 
   background-color: white;
-  /*border: 0.5px var(--turq) solid;*/
+  border: 1px var(--lightgrey) solid;
   border-radius: 10px;
   overflow: hidden;
 
-  
-  box-shadow: 0px 0px 1px var(--turqdark);
   
 }
 
 .card:hover {
   cursor: pointer;
-  margin: 0px;
-  padding-bottom: 3px;
-  box-shadow: 0px 0px 4px var(--turqdark);
+
+  box-shadow: 0px 0px 4px var(--turqdark), 0px 0px 10px var(--turq), 0px 0px 8px var(--turqdark);
   
 }
 
-.card:hover img {
-
-}
 
 @media (max-width: 1024px) {
-  .card-wrap {
-    width: calc((100% / 2) - 20px);
+  .card{
+    width: calc((100% / 2) - 22px);
   }
 }
 
-@media (max-width: 500px) {
-  .card-wrap {
-    width: calc(100% - 20px);
+@media (max-width: 700px) {
+  .card {
+    width: calc(100% - 22px);
   }
 }
 
@@ -141,7 +141,7 @@ footer {
 .tools {
   margin: 0px 12px;
   font-weight: 700;
-  color: var(--turqdark);
+  color: var(--grey);
 }
 
 .level {
@@ -193,4 +193,40 @@ footer {
 
 
 
+.one {
+  margin-left: calc(0% - 12px);
+  background-color: var(--newbie);
+}
+.two {
+  margin-left: calc(25% - 12px);
+  background-color: var(--junior);
+}
+.three {
+  margin-left: calc(50% - 12px);
+  background-color: var(--intermediate);
+}
+.four {
+  margin-left: calc(75% - 12px);
+  background-color: var(--advanced);
+}
+.five {
+  margin-left: calc(100% - 12px);
+  background-color: var(--guru);
+}
+
+.newbie {
+  background-color: var(--newbie);
+}
+.junior {
+  background-color: var(--junior);
+}
+.intermediate {
+  background-color: var(--intermediate);
+}
+.advanced {
+  background-color: var(--advanced);
+}
+.guru {
+  background-color: var(--guru);
+}
 
